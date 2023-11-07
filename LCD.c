@@ -24,11 +24,11 @@ void LCD_vInit(void)
 	DIO_vsetPINDir('B',RW,1);
 	DIO_vsetPINDir('B',RS,1);
 	DIO_write('B',RW,0);
-	LCD_vSend_cmd(EIGHT_BITS); //8 bit mode
+	LCD_vSend_cmd(EIGHT_BITS); 
 	_delay_ms(1);
-	LCD_vSend_cmd(CURSOR_ON_DISPLAN_ON);//display on cursor on
+	LCD_vSend_cmd(CURSOR_ON_DISPLAN_ON);
 	_delay_ms(1);
-	LCD_vSend_cmd(CLR_SCREEN);//clear the screen
+	LCD_vSend_cmd(CLR_SCREEN);
 	_delay_ms(10);
 	LCD_vSend_cmd(ENTRY_MODE); //entry mode
 	_delay_ms(1); 
@@ -42,15 +42,15 @@ void LCD_vInit(void)
 	DIO_vsetPINDir('B',RW,1);
 	DIO_vsetPINDir('B',RS,1);
    	DIO_write('B',RW,0);
-	LCD_vSend_cmd(RETURN_HOME); //return home
+	LCD_vSend_cmd(RETURN_HOME);
 	_delay_ms(10);
-	LCD_vSend_cmd(FOUR_BITS); //4bit mode
+	LCD_vSend_cmd(FOUR_BITS);
 	_delay_ms(1);
-	LCD_vSend_cmd(CURSOR_ON_DISPLAN_ON);//display on cursor on
+	LCD_vSend_cmd(CURSOR_ON_DISPLAN_ON):
 	_delay_ms(1);
-	LCD_vSend_cmd(CLR_SCREEN);//clear the screen
+	LCD_vSend_cmd(CLR_SCREEN);
 	_delay_ms(10);
-	LCD_vSend_cmd(ENTRY_MODE); //entry mode
+	LCD_vSend_cmd(ENTRY_MODE); 
 	_delay_ms(1);
 	#endif
 }
