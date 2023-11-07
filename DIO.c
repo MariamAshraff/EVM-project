@@ -171,15 +171,15 @@ void DIO_write_port(unsigned char portname,unsigned char portvalue)
 		break ;
 		case 'B':
 		case 'b' :
-		PORTB=portvalue; //Write the given value to the port B
+		PORTB=portvalue; 
 		break ;
 		case 'C' :
 		case 'c' :
-		PORTC=portvalue; //Write the given value to the port C
+		PORTC=portvalue; 
 		break ;
 		case 'D':
 		case 'd' :
-		PORTD=portvalue; //Write the given value to the port D
+		PORTD=portvalue; 
 		break ;
 		default:
 		break ;
