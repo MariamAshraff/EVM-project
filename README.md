@@ -15,3 +15,4 @@ The software program design consists of 3 layers:-
 1- MCAL layer: GPIO 
 2- HAL layer: LCD and Button module 
 3- Application layer: the application unit.
+![Screenshot_3](https://github.com/MariamAshraff/EVM-project/assets/118696706/7db5866f-ec81-416f-a10a-1c7a876a20a7)
