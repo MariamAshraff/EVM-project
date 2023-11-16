@@ -9,7 +9,7 @@ A, B, C and D. Each candidate has a button. I added a button E that makes you en
 
 - Hardware components:-
 1- LCD 
-2-5Buttons
+2- 5 Buttons
 
 The software program design consists of 3 layers:-
 1- MCAL layer: GPIO 
